@@ -1,12 +1,10 @@
-const path = require('path');
+const path = require("path");
 
 module.exports = {
+  entry: "./js/dashboard_main.js",
+  mode: "production",
   output: {
-    path: path.resolve(__dirname, 'puclic'),
-    filename: 'bundle.js'
-  },
-  entry: {
-    main: './js/dashboard_main.js'
-  },
-  mode: 'production',
-}
+    filename: "bundle.js",
+    path: path.resolve(__dirname, "public")
+  }
+};
