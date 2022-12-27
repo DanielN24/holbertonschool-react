@@ -12,4 +12,4 @@ function updateCounter(){
     clickCount += 1;
     $('#count').html(`${clickCount} clicks on the button`);
 }
-jQuery('button').on('click', _.debounce(updateCounter, 500));
+jQuery('button').on('click', _.debounce(updateCounter, 300));
