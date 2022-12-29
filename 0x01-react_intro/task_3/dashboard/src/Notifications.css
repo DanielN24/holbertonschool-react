@@ -1,0 +1,12 @@
+div .Notifications  {
+    border: 1px dashed rgb(240, 12, 12);
+    padding: 2px;
+}
+
+[data-priority='default'] {
+    color: #1D0563;
+}
+
+[data-priority='urgent'] {
+    color: #DF354B;
+}

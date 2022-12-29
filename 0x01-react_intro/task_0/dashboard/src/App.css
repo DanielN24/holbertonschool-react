@@ -1,0 +1,33 @@
+.App-header {
+  color: #DF354B;
+  font-family: sans-serif;
+  display: flex;
+  border-bottom: 3px #DF354B solid;
+  
+}
+.App-header h1 {
+  display: inline;
+  position: relative;
+  bottom: 90px;
+}
+
+.App-header img {
+  width: 200px;
+}
+
+.App-body {
+  margin-top: 50px;
+  font-family: sans-serif;
+  border-bottom: 3px #DF354B solid;
+}
+
+.App-body p{
+  margin-left: 35px;
+  margin-bottom: 200px;
+}
+
+.App-footer {
+  font-family: sans-serif;
+  text-align: center;
+  font-style: italic;
+}
